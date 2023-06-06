@@ -40,7 +40,8 @@ combined_df_right = df1.join(df2, on="id", how="right")
 print("Combined DataFrame (Right Join):")
 combined_df_right.show()
 
-# Method 5: Cross Join
+# Method 5: Cross Join 
+
 combined_df_cross = df1.crossJoin(df2)
 print("Combined DataFrame (Cross Join):")
 combined_df_cross.show()
